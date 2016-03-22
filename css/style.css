@@ -1,0 +1,418 @@
+body{
+	font-size: 16px;
+	/*font-family: 'Poppins', Arial, sans-serif;*/
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+p{
+	color: #777;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+ul li {
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 3.6rem;
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 2.2rem;
+}
+
+/**********************************
+*************header**************
+**********************************/
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	background-color: #fff;
+	/*height: 80px;*/
+	box-shadow: 0 1px 5px #999;
+}
+.header-title{
+	width: 100%;
+	height: 80px;
+	padding: 2px 0 0 20px;
+	margin: 0;
+	background-color: #63BB43;
+}
+.header-title > a{
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 2rem;
+	color: white;
+}
+
+.header-title > a > span{
+	display: block;
+	color: #D3F3C8;
+	font-size: 1.3rem;
+	font-weight: lighter;
+}
+.header-main{
+	float: right;
+	margin-top: 30px;
+}
+.header-main a{
+	color: #aaa;
+}
+.header-main a:hover{
+	color: #63BB43;
+}
+.header-main.nav-pills>li.active>a,
+.header-main.nav-pills>li.active>a:hover,
+.header-main.nav-pills>li.active>a:focus,
+.header-main.nav-pills>li>a:hover {
+	background:none;
+}
+.header-main.nav-pills>li.active>a,
+.header-main.nav-pills>li.active>a:hover,
+.header-main.nav-pills>li.active>a:focus{
+	color: #63BB43;
+}
+.header-main.nav .open>a,
+.header-main.nav .open>a:hover,
+.header-main.nav .open>a:focus{
+	background:none;
+}
+
+.mobile-menu-button{
+	float: right;
+	width: 44px;
+	margin: 20px 0;
+}
+
+.mobile-main-menu{
+	display: none;
+}
+
+.mobile-main-menu a{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	color: #aaa;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mobile-main-menu li{
+	margin: 0;
+}
+
+.mobile-main-menu a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #63BB43;
+}
+
+/**********************************
+*************Container**************
+**********************************/
+
+.cover{
+	background-image: url('../image/cover.jpg');
+	height: 100vh;
+	padding: 50px 0;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cover .cover-text{
+	margin-top: 80px;
+}
+
+.cover-text > h2{
+	font-weight: 400;
+	text-align: right;
+	color: #fff;    
+	text-shadow: 1px 1px 2px #5D5D5D;
+	font-size: 3.6rem;
+}
+.cover-text > p{
+	color: #44382F;
+  font-size: 1.8rem;
+  text-align: right;
+  font-weight: 600;
+}
+
+/**********************************
+*************Pets-reason************
+**********************************/
+
+.pets {
+	padding: 1.5em 0;
+}
+
+/*.pets  h2{
+	font-size: 3.6rem;
+	font-weight: 300;
+}*/
+
+.pets-reason {
+	margin: 1em 0;
+}
+
+.pets-reason > figure {
+	text-align: center;
+}
+
+.pets-reason > h3 {
+	text-align: center;
+}
+
+.pets-reason > p {
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+/**********************************
+*************Pets-adoption************
+**********************************/
+
+.pets-adoption{
+	padding: 1em 0 2em 0;
+}
+
+.pets-adoption .pet{
+	padding: .5em;
+}
+
+.pet .image > img{
+	width: 100%;
+}
+
+.pet .pet-text{
+	padding: 1em;
+  background-color: #0D47A1;
+  color: white;
+}
+
+.pet .pet-text > h3{
+	margin: 0;
+	font-weight: 400;
+	font-size: 2.5rem;
+}
+
+.pet .pet-text > h4{
+	font-size: 1.7rem;
+	font-weight: 300;
+}
+
+.pet .pet-text > p{
+	color: white;
+}
+
+.pet .pet-text > a{
+	font-size: 1.5rem;
+	border: none;
+  border-radius: 0;
+  background-color: #E91E63;
+  color: white;
+  /*font-weight: lighter;*/
+}
+.pet .pet-text > a:hover{
+	color: white;
+	background-color: #E0004C;
+}
+
+/**********************************
+*************contact**************
+**********************************/
+
+.btn-custom{
+	border:none;
+	border-radius: 0;
+	color: white;
+}
+
+.twitter{
+	background-color: #1da1f2;
+}
+
+.twitter:hover{
+	background-color: #007DCA;
+	color: white;
+}
+
+.facebook{
+	background-color: #3a5795;
+}
+
+.facebook:hover{
+	background-color: #18326B;
+	color: white;
+}
+
+.contact{
+	padding-bottom: 1em; 
+}
+
+.contact .contact-text{
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+/**********************************
+*************About****************
+**********************************/
+
+.about{
+	padding-bottom: 2em;
+}
+
+.team{
+	margin-bottom: 2rem;
+}
+
+.about .about-team h3{
+	font-size: 3.4rem;
+	margin-bottom: 2rem;
+}
+
+.about .about-team .avatar{
+	text-align: center;
+}
+
+.about .about-team .avatar > img{
+	width: 100%;
+	max-width: 150px;
+	border-radius: 50%;
+}
+
+.about .about-team .text{
+	text-align: center;
+}
+
+/**********************************
+*************footer**************
+**********************************/
+
+footer{
+	background-color: #001713;
+	height: auto;
+	padding: 50px 0 60px 0;
+	box-sizing: border-box;
+}
+
+footer p{
+	margin: 0;
+	text-align: center;
+}
+
+footer .btn-top{
+	border: 2px solid white;
+  /* background-color: white; */
+  height: 30px;
+  width: 30px;
+  /* color: white; */
+  line-height: 27px;
+	text-align: center;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+footer .btn-top > a{
+	color: white;
+  transition: .3s;
+  display:block;
+}
+
+footer .btn-top:hover{
+	background-color: white;
+}
+
+footer .btn-top > a:hover{
+	color: #001713;
+}
+
+
+@media (min-width: 768px){
+	p{
+		color: #777;
+		font-size: 1.6rem;
+		font-weight: 300;
+	}
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	ul li {
+		margin-bottom: 5px;
+	}
+
+	h2{
+		font-size: 4.6rem;
+		font-weight: 300;
+	}
+
+	h3 {
+		font-weight: 300;
+		font-size: 3.2rem;
+	}
+
+	/**********************************
+	*************Container**************
+	**********************************/
+
+	.cover-text > h2{
+		font-size: 5.6rem;
+		text-shadow: 1px 0px 1px #2D2D2D;
+		font-weight: 500;
+	}
+	.cover-text > p{
+		font-size: 2.6rem;
+	}
+
+	/**********************************
+	*************Pets-adoption************
+	**********************************/
+
+	.pets-adoption .pet > .pet-content{
+		background-color: #0D47A1;
+		padding: 0;
+	}
+
+	.pets-adoption .pet > .pet-content > .image{
+		padding: 0;
+	}
+		.pets-adoption .pet > .pet-content  .pet-text{
+		padding: 1em 0;
+	}
+
+	/**********************************
+	***************contact************
+	**********************************/
+	
+	.contact {
+		position: relative;
+	}
+
+	.contact .contact-text{
+		position: absolute;
+		top: 0;
+		height: 300px;
+	}
+	.contact .contact-text > h2{
+		margin: .5rem 0;
+	}
+	.contact .contact-text > h3{
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
+
+}
